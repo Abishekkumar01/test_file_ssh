@@ -2,6 +2,8 @@ import cv2
 import mediapipe as mp
 import serial
 import time
+import numpy
+import math
 
 # Initialize the MediaPipe Hands module
 mp_hands = mp.solutions.hands
